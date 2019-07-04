@@ -1,62 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  
 </head>
+
 <body>
-  <style >
-    body {
-      background-image: url("background.jpg");
-      background-size: cover;
-    
-    }
-    </style>
+
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Roderick Breland</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+
       </ul>
-     
+
     </div>
- <div>
-   </nav>
-  <form>
-    <div class="form-row">
+    <div>
+  </nav>
+  <div class="container">
+
+    <div class="form-row m-4">
+        <div class="form-group col-md-6">
+            <label for="inputName4">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
       <div class="form-group col-md-6">
         <label for="inputEmail4">Email Address</label>
-        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        <input type="email" class="form-control" id="email" placeholder="Email">
       </div>
       <div class="form-group col-md-6">
         <label for="inputPhone4">Phone Number</label>
-        <input type="phone" class="form-control" id="inputPhonenumber4" placeholder="Phone Number">
+        <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
       </div>
-    </div>            
-        </label>
-      </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  </div>
+      <div class="form-group col-md-6">
+          <label for="inputMessage4">Message</label>
+          <input type="text" class="form-control" id="message" placeholder="Message">
+        </div>
+      <div class="form-group col-md-6">
+        <button type="submit" class="btn btn-primary" id="send">Submit</button>
 
+      </div>
+      <h2> Please enter your contact information above.</h2>
+    </div>
+
+
+  </div>
+  <script src='./assets/js/contact.js'></script>
 </body>
+
 </html>

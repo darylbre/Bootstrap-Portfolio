@@ -1,13 +1,19 @@
 
- body {
+ /* body { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
     background-size: cover;
-  } 
+  }  */
 
 /* .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
   } */
+
+  body {
+    background-image: url("./assets/images/background.jpg");
+    background-size: cover;
+
+  }
 
 .dev {
     color: white !important;
@@ -23,6 +29,10 @@ h2{
 
 h3{
   color: white
+}
+
+.navbar-brand {
+  font-size: 30px;
 }
 
 
